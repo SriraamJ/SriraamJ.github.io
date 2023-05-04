@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background-color:  #e5e5e5;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #404B69;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #ffff;
+}
+h2
+{
+  color: #404B69;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #ffff;
+}
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.box
+{
+    display: flex;
+    flex-direction: column;
+    
+    box-shadow: -5px -5px 8px white,
+						5px 5px 8px gray;
+    border-radius: 30px;
+}
+#rock {
+    background-image: url(rocks.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-inline-start: 6cm;
+    padding-block-start: 6cm;
+  }
+  #paper {
+    background-image: url(paper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-inline-start: 6cm;
+    padding-block-start: 6cm;
+  }
+  #scissor {
+    background-image: url(scissors.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-inline-start: 6cm;
+    padding-block-start: 6cm;
+  }
+  
+button
+{
+    outline: none;
+    font-weight: 900;
+    border-radius: 30px;
+    border: none;
+    display: inline-block;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0, 0, 0, .16);
+    background: #e5e5e5;
+}
+button:hover{
+	background: #e5e5e5;
+	border: none;
+	box-shadow: inset -7px -7px 10px white,
+				inset 7px 7px 10px gray;
+}
+.result
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
